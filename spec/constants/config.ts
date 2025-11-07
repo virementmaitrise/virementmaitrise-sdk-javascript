@@ -1,0 +1,69 @@
+/**
+ * TEST constants
+ * 
+ * @class TestConfig
+ */
+
+export class TestConfig {
+    public static readonly appIdOpenbanking: string = '8687cc56-22be-4ef3-946f-4b52b83008b0';
+    public static readonly appSecretOpenbanking: string = '7f493c9a-f512-48d7-849d-29a1a6ad73ea';
+    public static readonly appPrivKeyOpenbanking: string = `-----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCe6S+EFcQGpKKD
+Kyk5jr0OUED6uuK9rnadkPHq6WkFUIIEZ+xjcL9HHIRVzI/PTWvb6SWc7pqXNAht
+GQL43JKjqh5Itm4ml9Rrs08UeEBmo1K4pCQGXGn9UqLHfIGpHznlhwhq2BUV3HaU
+OZ+LKNuCaHdRXnky7i8+6kvwzTuMFHZcHW6WKiFxxm5Y8cXfeB3bCuAkzrpa3dOG
+qQfxm03YIG5XKHs+77gN/AfnCSOQ0mSOl9uIV0ulKWWlV2/+BFmhYSfogXnD1kdF
+TIwXiIzUdhRiG9xdLpP+e/Dt/LLsHjN7iYfzNiGkEt45GNHHtVqMH5MvyKzsK70n
+RJg86h/9AgMBAAECggEAIZjrkuGHMGBee50EekbTcdNF6bzZc4EPUwDyJNh0e8sp
+sgTG1b9gsYg18m3tecbEpxoD+cn4pT87CNXg6vy3hCLThEwNvdsb7ila7tj9xLWD
+J8aMV0vynLx77fFE+JzBgOWrwestihGygGQudx2MS2YK1AlFVp9FHegrZh3+GP9l
+K9D1VoaufeWUmyp6ez4bikeJgvBLwKo8FvAt59ELvhglClwGWjuB+o8X9nKaxc2/
+CIEW3WZSRZdj6oRkC+F+Fb3AnMdGAdF5UczkyVW374wamhmxmhztMGL1uLSgU1ZL
+JRpWCwGODNf2HA81VVGEwXXisqWy9oxGieWy/GlsAQKBgQDR6/HmOrtqhcZ4OqIv
+SzG1dme3mZ1FUPLMJSVWu9nV+y3YsJogXZCOktn/htTGrWCV7Wa3J27gSnfpMO0T
+sKY8xzLil6axGRD1OCMh/4+AW8fi1okYghPgJQlgXwhKCF6+u/up3ocIEtHS4uIO
+ffDsT5bGYexzHNXjyI22YfEb2QKBgQDBys9HxoR/QyFRvoys8KSVK9Kujtrd9pe5
+6K2UY0yiviHTF3XOWVsX7YPVbZuCRpzgi+fXjB6FvT/LpL4LmFnKPiys4Y8OQ3bH
+DaNhZ+O9vcdtvEUZN6h2HbssIWMY7WF6vtyXCQPF8FSAB3udXb4JYLKzOU7R0uWS
+A3CVjGgCxQKBgBQzs7TnZA/tTdtWMTOB9geznGmj4+m+z47r6Dr/mwgnwxK+dCa3
+OmkuIsKflCyGlOv4y9DGf7ogEIgliDtD3cutk+0QkR8r/WDMBT2JXaMJsiPXZ5wv
+MIB6r/tRSfft9EhAyQhg/Pe+7+huozin0B69zhHLbLjrRn5EV7b8l/qJAoGAHpD/
+qsGMKoqLGdqlU63NN94mp/POX85CVkd2AX68GrtEmIgNw9NiQ97puWNFcQH0QpKu
+qdfnBI86HcPJWgjYuMafw1D8gHJxrKnhCD8bs9TYPN3CRFz8DE1aNXa6q7bddj/e
+iVAZsUHcAimr/MFJdS80YIJ8hSnvnd0/B8eSrEUCgYAH60rW0KV+w5N52z/OBEfn
+lVy/uQC4ge1dAYhcvxMNNCJ2mszxP5hW5LqCrkHj+9SULrHxvkYZHSKGcMVpiEq8
+IH5SfaI3mb4YDzgCMjdhj8G5m+yUZ+UKncPcQ0+iRT8O2IqQp2c1Ut9qBuSJZh43
+HoxR9hrXXccObKIbRBb1zA==
+-----END PRIVATE KEY-----`;
+    public static readonly appRedirectUri: string = '';
+    public static readonly appIdMerchant: string = 'e02a94ed-ca47-4ece-b641-82d2bf658288';
+    public static readonly appSecretMerchant: string = '7ad7b202-dc68-4cd2-ae05-4d338316972d';
+    public static readonly appPrivKeyMerchant: string = `-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMTItyD1NiVhMu
+LVfy9Bh7bTBbXwGN054wERgzdJOxdOYHdM6uMtds41HnS+nyXmLgZLUg4PvJSo+Y
+nUxjcQNwyh38tFw9Qa6hHw+UlbYX3zyaY2tVUyzYgYxrt3fFctoYRu0c+2+z5BV3
+ZGDj+/kbDwnZhKpzvK5lVclbFRB07TYg8Oejx9Cag4iCdz27pwIWYmCGsK6WgIkb
+0Ule5Nt/iPol4u/Ls6oWfsVbvR4HM/CM/DEZmWmFoLTeWgH+ATJr+j1pG/AmW95/
+DAfe1dK5QEc5V41+CVlUrDd4GtcMnA7nJKN0kxD3foiwTHPHF03BbS9gAKr/jcEP
+DWLDemqDAgMBAAECggEAG8bafMcNqMSYNgKPPyal/34QgZPQw8Y+bz2bwz8553pD
+3kao5TFfbdwYYjDFnaDso6K9p7s/MJaVIIRegvS2KYspeZbSJbf89MYi2apjSCqf
+dERJLyAwbD1s6KZYv/1GHt/h1DtxbA16R7HbpJO5Qk8QoUTy4eqI8Zkw19Ps2WC6
+wfC5KNzZUaWD/in7LMcF4LhfYVOZmFjysDLxoDTnntjfvil6FmmSMhzgFLQ/tJkY
+Qe0gyl+UzYsKZM6LxJVucocfAmLNaOEnvpbry6bkrnghGuBH3z/XcwHXr4cTwDkZ
+DCm03/BnT+/AuyjPTGTF4flMaihlvqW9weRZ5ySMlQKBgQD4R+1X/5eWvFQubKPo
+iyM/KI8hjSMoBsM8XEKbqw7t78QISM0uyB7gXul/vzetK3stpkwcA5EF58jM75gW
+jwBZ7QmjoStU3E/Hk6QdghYJx6NRNeBPIroud4MD0ouP3h6A8QQMWA8Ll3WqXIkj
++uBHP1dMjQvIhFQGgB54x3c1HQKBgQDSppB3GnSvTXJ9gR53fGKlPmfzSzu0VILR
+jJYU4er9/O3/YU8mTij9RKG4i0m+AM3AuzycExshZ4ToCZ82JIPA8+JKwi9UlEFd
+tB/Vt7QRXLIiCtae3EIloAAcse9QoAz7ZsVbSoEyvqB1Ui59oX28m2uXXZW/Ytzc
+fByk2HIsHwKBgQC3cjW86l3wAxDUCHOHM58EYIx5BtZuEakZpTWV3Ws3hQu770aj
+hTvDHn26ZOfXbKQj05aysDPsQBlOysz+BgUFbK3NmBzzI6FS3hTJtL9h1H8oVv14
+mzkjcix8m4mA8GZrcSlDkaD0OKG5EYxG6GvkWLnBFwoYyyVmdC2PohnDRQKBgQDE
+wxDuL6gOlyj6UkFDGsyJzWELwJpkNwx67/bASsZVuIwWn65u+VMQP6tP1ctrzxRh
+koNqxe3xpeBfXZ151WG8OhKGAhxzxIfKHxYdaxqnnQ5G/hi7CsI+otV3+Dyx8s4t
+hjGStGU6IRWAgOMsNkxcgFBfcusNeisTSFr5H7SFwQKBgC4CjsKoosi3K6PfNWom
+E2ZzGuAC+wosigEjivGBAX5SBRunYXle+l2qEugZQMQbCupxrmPsAQEq7yFXGVh/
+he+7PoGeuN+tyU97ysJVpQrjvc29PdhKt4rGpby7c9omr4xlgtYUJo6KXZO1N3g+
+NGIDKuWDm34+VDzlhcjMC5sz
+-----END PRIVATE KEY-----`;
+}

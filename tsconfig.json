@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "outDir": "lib",
+        "removeComments": false,
+        "declaration": true,
+        "lib": ["es2018", "DOM"],
+    },
+    "include": [
+        "src",
+        "spec"
+    ],
+}
