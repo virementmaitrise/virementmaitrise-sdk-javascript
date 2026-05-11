@@ -14,3 +14,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 # [2.5.1] - 2025-11-07
 - Internal fix
+
+# [2.5.2] - 2026-05-06
+- feat: Add support for `external_reference` field in PIS Connect payload
