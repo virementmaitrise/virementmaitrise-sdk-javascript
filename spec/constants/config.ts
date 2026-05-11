@@ -35,7 +35,7 @@ lVy/uQC4ge1dAYhcvxMNNCJ2mszxP5hW5LqCrkHj+9SULrHxvkYZHSKGcMVpiEq8
 IH5SfaI3mb4YDzgCMjdhj8G5m+yUZ+UKncPcQ0+iRT8O2IqQp2c1Ut9qBuSJZh43
 HoxR9hrXXccObKIbRBb1zA==
 -----END PRIVATE KEY-----`;
-    public static readonly appRedirectUri: string = '';
+    public static readonly appRedirectUri: string = 'https://www.virementmaitrise.societegenerale.eu';
     public static readonly appIdMerchant: string = 'e02a94ed-ca47-4ece-b641-82d2bf658288';
     public static readonly appSecretMerchant: string = '7ad7b202-dc68-4cd2-ae05-4d338316972d';
     public static readonly appPrivKeyMerchant: string = `-----BEGIN PRIVATE KEY-----
